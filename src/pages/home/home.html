@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home Page
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h1>.Home_Page.</h1>
+    
+    {{data}}
+    <br><br><br>
+
+  <button ion-button icon-start (click)="click1()">
+    <ion-icon name="star"></ion-icon>
+    Base Page
+  </button>
+  
+  <button ion-button icon-end (click)="click3()">
+      setRoot Page
+    <ion-icon name="star"></ion-icon>
+  </button>
+
+  <button ion-button (click)="click4()">
+      Event
+    </button>
+
+  <button ion-button (click)="click2()">
+      Refresh
+  </button>
+  
+</ion-content>
